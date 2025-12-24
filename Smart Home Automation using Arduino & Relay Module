@@ -1,0 +1,13 @@
+int relay = 7;
+
+void setup() {
+  pinMode(relay, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(relay, HIGH); // Appliance ON
+  delay(3000);
+
+  digitalWrite(relay, LOW);  // Appliance OFF
+  delay(3000);
+}
